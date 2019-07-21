@@ -1,0 +1,33 @@
+.colors {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    /* background-color: blue; */
+}
+ 
+.colors > h1{
+    text-align: center;
+    color: olivedrab    ;
+}
+.colors > div {
+    /* background-color: blue; */
+    width: 70%;
+    margin: auto;
+}
+
+.colors > div > div {
+    padding: 15px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: black;
+    /* float: left; */
+    margin: 20px;
+    width: 80px;
+    /* height: 40px; */
+}
+.colors > h1{
+    height: 90px;
+}
+.colors h2{
+    width: 100%;
+}

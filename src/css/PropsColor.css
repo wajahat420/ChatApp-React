@@ -1,0 +1,16 @@
+.Propscolors {
+    width: 100%;
+    color: blueviolet;
+    /* color: blue; */
+}
+.Propscolors > h1{
+    line-height: 9;
+}
+.Propscolors > div{
+    /* height: 200px; */
+    width: 100%;
+}
+.red {
+    background-color: olivedrab ;
+    /* color: red; */
+}

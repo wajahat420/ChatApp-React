@@ -1,0 +1,60 @@
+.body{
+    width: 65%;
+    float: right;
+}
+.body .messages{
+    height: 200px;
+    font-size: 1.1em;
+}
+.body input{
+  
+    padding: 10px;
+    margin: 0px;
+    font-size: 1.2em;
+}
+.body .inputs {
+    position: fixed;
+    top: 490px;
+    padding: 5px;
+    
+    /* line-height: 1000px;  */
+}
+.body input[type="text"]{
+    margin-left: 1.6em;
+    width: 450px;
+    /* width: 80%; */
+}
+.body input[type="button"]{
+    outline: 0px;
+    background-color: rgb(247, 172, 34);
+    /* width: 450px; */
+}
+
+.send , .receive{
+    margin: 0px;
+}
+.send p , .receive p{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 3px;
+}
+.send{
+    color: white;
+    text-align: right;
+    width: 80%;
+    float: right;
+}
+.send p {
+
+    background-color: rgb(233, 140, 156);
+}
+.receive{
+    color: blue;
+    width: 80%;
+    float: left;
+}
+.receive p{
+
+    background-color: rgb(132, 174, 236);
+}
